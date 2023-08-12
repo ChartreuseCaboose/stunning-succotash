@@ -1,3 +1,31 @@
 body{
-    background-color: black
+    background-color: black;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    flex: 1 2;
+    width: 100%;
+}
+
+.pictureBox{
+    display: flex;
+}
+
+.stuffBox{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 1;
+}
+
+.textBox{
+    display: flex;
+    background-color: red;
+}
+
+.signUpBox{
+    display: flex;
+    background-color: yellow;
 }
